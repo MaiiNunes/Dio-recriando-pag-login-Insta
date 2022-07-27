@@ -134,8 +134,35 @@ body {
     border-radius: 8px;
 }
 
-/* media queries */
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
+}
 
+footer{
+    width: 100%;
+	background-color: #4e545c3a;
+	padding: 1px;
+	color: #e5e8e881;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-weight: 100;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer{
+    font-size: 5px;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.452);
+}
+
+
+/* media queries */
 
 @media (max-width: 1024px) {
     .insta-wrapper {
